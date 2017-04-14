@@ -1,0 +1,116 @@
+/* -------- YOUR BELT SECTION ----------- */
+section.your-belt {
+	background: $gray-dark;
+	padding-top: 79px;
+	padding-bottom: 35px;
+
+	@media (max-width: 991px) {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+
+	@media (max-width: 991px) {
+		.row.flex {
+			display: block;
+			padding-top: 30px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		padding-top: 20px;
+	}
+
+	h2 {
+		color: $white;
+	}
+	
+	.wrap {
+		width: 330px;
+    	margin: auto;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+
+		@media (max-width: 480px) {
+			width: auto;
+		}
+		@media (max-width: 241px) {
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-webkit-align-items: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+
+		.item {
+			color: $white;
+			display: inline-block;
+			width: calc(100% - 70px);
+
+			span {
+				color: #cdcdcd;
+
+				@media (min-width: 992px) and (max-width: 1199px) {
+					font-size: 12px;
+				}
+				@media (max-width: 480px) {
+					font-size: 12px;
+				}
+
+			}
+		
+		}
+
+		i.icon {
+			display: inline-block;
+			width: 44px;
+			height: 44px;
+			background-position: left top !important;
+			background-repeat: no-repeat !important;
+			margin-right: 22px;
+
+			@media (max-width: 480px) {
+				width: 30px;
+				height: 30px;
+				background-size: contain !important;
+				margin-right: 15px;				
+			}
+
+		}
+
+		i.icon.icon_1 {
+			background: url(../images/icon/belt/icon_1.png);
+		}
+		i.icon.icon_2 {
+			background: url(../images/icon/belt/icon_2.png);
+		}
+		i.icon.icon_3 {
+			background: url(../images/icon/belt/icon_3.png);
+		}
+		i.icon.icon_4 {
+			background: url(../images/icon/belt/icon_4.png);
+		}
+	}
+
+	.center-block {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		
+		img {
+			max-width: 100%;
+
+			@media (max-width: 610px) {
+				max-width: 80%;
+			}
+		}
+
+		@media (max-width: 480px) {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+	}
+
+}
+/* ----- *YOUR BELT SECTION END* -------- */

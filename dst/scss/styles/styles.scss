@@ -1,0 +1,94 @@
+/* -------- STYLES ----------- */
+* {
+	outline: none !important;
+}
+
+a.clear {
+	border: none !important;
+	outline: none !important;
+}
+
+section {
+
+	h1 {
+		font-family: 'HELV-BOLD';
+		text-align: center;
+		text-transform: uppercase;
+		color: #a29c9c;
+	}
+
+	h2 {
+		font-family: 'HELV-LIGHT';
+		text-align: center;
+		color: $gray-dark;
+		margin-top: 32px;
+	}
+}
+
+.pull-center {
+	margin: auto;
+	float: none;
+	display: block;
+}
+
+.flex {
+	display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1 {
+		font-size: 16px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+}
+@media (max-width: 991px) {
+	h1 {
+		font-size: 14px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	button.btn.btn-default {
+		font-size: 12px;
+		padding: 14px;
+		width: 290px;
+	}
+}
+
+@media (max-width: 529px) {
+	.col-xxs-12 {
+		width: 100%;
+	}
+	h2 {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+	button.btn.btn-default {
+		font-size: 10px;
+	}
+}
+@media (max-width: 320px) {
+	button.btn.btn-default {
+		width: 200px;
+		font-size: 9px;
+	}
+}

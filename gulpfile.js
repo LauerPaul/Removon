@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     gulpPugBeautify = require('gulp-pug-beautify');
  
 
-var source = 'app/',
+var source = 'dst/',
     dest = 'public/';
 // Bootstrap scss source
 var bootstrapSass = {

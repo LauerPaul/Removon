@@ -1,0 +1,23 @@
+/* -------- FOOTER SECTION ----------- */
+footer {
+	border-top: 5px solid #1c1c1c;
+	background: #000000;
+	padding: 23px 0;
+	
+	a.logo {
+		display: inline-block;
+
+		@media (max-width: 991px) {
+			img {
+				width: 170px;
+			}
+		}
+
+		@media (max-width: 241px) {
+			img {
+				width: 120px;
+			}
+		}
+	}
+}
+/* ----- *FOOTER SECTION END* -------- */

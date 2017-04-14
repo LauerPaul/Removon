@@ -1,0 +1,21 @@
+{
+  "name": "removon",
+  "description": "movon website",
+  "main": "gulpfile.js",
+  "authors": [
+    "MARKLINE (front end Paul Uhrynovych)"
+  ],
+  "license": "ISC",
+  "homepage": "lauer.com.ua",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

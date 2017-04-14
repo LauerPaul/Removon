@@ -1,0 +1,81 @@
+/* -------- SKIMMERS SECTION ----------- */
+section.skimmers {
+	background: url(../images/skimmers_bg.jpg) no-repeat right bottom;
+	padding-top: 79px;
+	padding-bottom: 50px;
+
+	@media (max-width: 991px) {
+		padding-top: 40px;
+		padding-bottom: 25px;
+
+	}
+	@media (max-width: 529px) {
+		background-size: cover;
+	}
+	@media (max-width: 480px) {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+
+	.wrapp {
+		display: inline-block;
+		margin: 50px 0;
+
+		@media (max-width: 991px) {
+			margin: 30px 0;
+		}
+		@media (max-width: 610px) {
+			max-width: 100%;
+		}
+
+		.circle-icon {
+			width: 181px;
+			height: 181px;
+			background: $gray-dark;
+			border-radius: 50%;
+			position: relative;
+			margin: 0 auto;
+			overflow: hidden;
+
+			@media (max-width: 610px) {
+				width: 120px;
+				height: 120px;
+			}
+
+			img {
+				position: absolute;
+				top: -50%;
+				bottom: -50%;
+				left: -50%;
+				right: -50%;
+				margin: auto;
+				min-width: 100%;
+				min-height: 100%;
+				height: 100%;
+			} 
+		}
+
+		.description {		
+			margin-top: 20px;
+			max-width: 265px;
+			color: $gray;
+			font-size: 16px;
+			line-height: 24px;
+
+			@media (max-width: 1199px) {
+				font-size: 14px;
+			}
+			@media (max-width: 991px) {
+				font-size: 14px;
+				line-height: 20px;
+			}
+			@media (max-width: 610px) {
+				font-size: 12px;
+			}
+		}
+
+	}
+
+}
+/* ----- *SKIMMERS SECTION END* -------- */
